@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Cardápio🍕</title>
+</head>
+<h1> Nosso Cardápio</h1>
+
+
+<body>
+    <div class="card" style="width: 18rem;">
+  <img src="{{url_for('static', filename='banner1.jpg')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Batata Frita (300g)</h5>
+    <p class="card-text">R$15,00</p>
+    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+  </div>
+
+      <div class="card" style="width: 18rem;">
+  <img src="{{url_for('static', filename='download.jpg')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Milkshake (450ml)</h5>
+    <p class="card-text">R$12,00</p>
+    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+  </div>
+
+      <div class="card" style="width: 18rem;">
+  <img src="{{url_for('static', filename='banner2.jpg')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Pizza (G)</h5>
+    <p class="card-text">Sabores:<br> -Calabresa<br> -Carne de Sol<br> -Frango com Catupiry<br> R$53,90</p>
+    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+  </div>
+
+   <div class="card" style="width: 18rem;">
+  <img src="{{url_for('static', filename='banner3.jpg')}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">X-Burguer</h5>
+    <p class="card-text">-Carne artesanal (100g)<br> -Salada<br> -Queijo Cheddar e Presunto<br> R$17,00</p>
+    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+  </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
